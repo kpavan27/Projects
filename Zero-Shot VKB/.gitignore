@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Data
+drive-download-20250922T101253Z-1-001/
+*.json

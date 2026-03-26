@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+torchvision
+torchaudio
+sentencepiece
+accelerate
+pandas
+faster-whisper
+python-multipart
+# The following dependency needs to be installed from git:
+# pip install git+https://github.com/salesforce/LAVIS.git
