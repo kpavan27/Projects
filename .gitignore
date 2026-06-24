@@ -1,0 +1,63 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+env/
+venv/
+.venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / React
+node_modules/
+npm-debug.log*
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ML model weights & large data
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+data/raw/
+data/processed/
+models/
+
+# Credentials & secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+service-account*.json
+*credentials*.json
+secrets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
